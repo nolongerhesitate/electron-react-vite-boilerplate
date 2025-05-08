@@ -13,12 +13,17 @@ function App() {
         </a>
       </div>
       <h1>Vite + React + Electron + Electron-forge</h1>
+      <h2>node: {window.versions.node()}</h2>
+      <h2>chrome: {window.versions.chrome()}</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <button onClick={()=> window.api.getTest()}>
+          click to getTest()
+        </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Edit <code>src/renderer/App.tsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
