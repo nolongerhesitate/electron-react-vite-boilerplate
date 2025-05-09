@@ -1,17 +1,3 @@
-/* original
-{
-  "compilerOptions": {
-    "allowJs": true,
-    "esModuleInterop": true,
-    "noImplicitAny": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "outDir": "dist",
-    ?????"moduleResolution": "node",
-    "resolveJsonModule": true,
-  }
-}
-*/
 {
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
