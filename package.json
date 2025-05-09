@@ -1,8 +1,8 @@
 {
-  "name": "forge-template",
-  "productName": "forge-template",
+  "name": "electron-react-vite-boilerplate",
+  "productName": "electron-react-vite-boilerplate",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "The boilerplate uses Electron, React, TypeScript, Vite and Electron-forge.",
   "main": ".vite/build/main.js",
   "scripts": {
     "dev": "vite",
